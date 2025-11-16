@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Explain the concept of Object-Oriented Programming and list its four main principles.",
+    "correct_answer": "Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects. The four main principles are: 1) Encapsulation - bundling data and methods together, 2) Abstraction - hiding complex implementation details, 3) Inheritance - creating new classes from existing ones, 4) Polymorphism - ability to take many forms.",
+    "type": "descriptive"
+  },
+  {
+    "question": "What is the difference between a compiler and an interpreter? Provide examples of languages that use each.",
+    "correct_answer": "A compiler translates the entire source code into machine code before execution (e.g., C, C++, Java to bytecode), while an interpreter executes code line by line during runtime (e.g., Python, JavaScript, Ruby). Compiled languages are generally faster but require a compilation step, while interpreted languages offer more flexibility and easier debugging.",
+    "type": "descriptive"
+  },
+  {
+    "question": "Describe what a database index is and explain its advantages and disadvantages.",
+    "correct_answer": "A database index is a data structure that improves the speed of data retrieval operations. Advantages: Faster query performance, efficient searching and sorting. Disadvantages: Requires additional storage space, slows down INSERT/UPDATE/DELETE operations as indexes need to be maintained.",
+    "type": "descriptive"
+  },
+  {
+    "question": "Explain the differences between HTTP and HTTPS protocols.",
+    "correct_answer": "HTTP (Hypertext Transfer Protocol) is an unsecured protocol for data transfer, while HTTPS (HTTP Secure) uses SSL/TLS encryption to secure data transmission. HTTPS protects against eavesdropping and man-in-the-middle attacks, uses port 443 instead of port 80, and provides authentication, data integrity, and encryption.",
+    "type": "descriptive"
+  },
+  {
+    "question": "What is recursion in programming? Provide a real-world example where recursion would be useful.",
+    "correct_answer": "Recursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller subproblems. Real-world examples include: calculating factorials, traversing tree structures (like file systems), solving Tower of Hanoi puzzle, implementing divide-and-conquer algorithms like merge sort and quick sort.",
+    "type": "descriptive"
+  }
+]

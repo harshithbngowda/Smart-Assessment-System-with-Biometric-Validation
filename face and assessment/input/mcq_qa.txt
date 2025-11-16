@@ -1,0 +1,45 @@
+================================================================================
+PAKKA FINAL QA GENERATOR OUTPUT
+================================================================================
+
+Q1: What does the King do when he visits?
+Options:
+  A) Kneels by her side and calls out 'Mi reina!'
+  B) Reads poetry
+  C) Brings flowers
+  D) Prays silently
+Correct Answer: A
+Explanation: The text describes: Once every month the King, wrapped in a dark cloak
+and with a muffled lantern in his hand, went in and knelt by her side calling out, ‘Mi reina!
+Type: event_mcq
+--------------------------------------------------------------------------------
+
+Q2: Where is the Queen's body kept?
+Options:
+  A) In a golden tomb
+  B) In the castle tower
+  C) In the royal cemetery
+  D) In a black marble chapel of the Palace
+Correct Answer: D
+Explanation: The text describes: She had been embalmed by a Moorish physician, who in return for this service had
+been granted his life, which for heresy and suspicion of magical practices had been already
+forfeited, men said, to the Holy Office, and her body was still lying on its tapestried bier in
+the black marble chapel of the Palace, just as the monks had borne her in on that windy
+March day nearly twelve years before.
+Type: detail_mcq
+--------------------------------------------------------------------------------
+
+Q3: What is the main theme of this passage?
+Options:
+  A) A story of love, loss, and mourning
+  B) A description of royal ceremonies
+  C) A historical account of wars
+  D) A tale of political intrigue
+Correct Answer: A
+Explanation: The passage focuses on: Mi reina!’ and sometimes breaking through the formal etiquette that in Spain governs every
+separate action of life, and sets limits even to the sorrow of a King, he would clutch at the
+pale jewelled hands in a wild agony of grief, and try to wake by his mad kisses the cold
+painted face.
+Type: comprehension_mcq
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,1 @@
+python recognize_gemini.py input/image-12.jpg AIzaSyDJbnjXOLDPm8iIgxYEU8_2MUMGBQnwFfU

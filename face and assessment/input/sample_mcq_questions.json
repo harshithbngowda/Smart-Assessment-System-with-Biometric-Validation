@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "High Tech Modern Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Language"
+    ],
+    "correct_answer": "A",
+    "type": "mcq"
+  },
+  {
+    "question": "Which programming language is known as the 'mother of all languages'?",
+    "options": [
+      "Java",
+      "C",
+      "Python",
+      "COBOL"
+    ],
+    "correct_answer": "B",
+    "type": "mcq"
+  },
+  {
+    "question": "What is the time complexity of binary search?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n^2)",
+      "O(1)"
+    ],
+    "correct_answer": "B",
+    "type": "mcq"
+  },
+  {
+    "question": "Which data structure uses LIFO (Last In First Out) principle?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Tree",
+      "Graph"
+    ],
+    "correct_answer": "B",
+    "type": "mcq"
+  },
+  {
+    "question": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Question Language",
+      "System Query Language",
+      "Standard Query Language"
+    ],
+    "correct_answer": "A",
+    "type": "mcq"
+  }
+]

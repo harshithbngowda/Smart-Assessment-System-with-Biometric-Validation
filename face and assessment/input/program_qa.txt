@@ -1,0 +1,70 @@
+================================================================================
+PAKKA FINAL QA GENERATOR OUTPUT
+================================================================================
+
+Q1: Write a C program to check whether a given number is prime or not.
+Answer: #include <stdio.h>
+int main() {
+int num, i, isPrime = 1;
+printf("Enter a positive integer: ");
+scanf("%d", &num);
+if (num <= 1) {
+isPrime = 0;
+} else {
+for (i = 2; i <= num / 2; i++) {
+if (num % i == 0) {
+isPrime = 0;
+break;
+}
+}
+}
+Type: programming
+--------------------------------------------------------------------------------
+
+Q2: Write a C program to find the largest element in an array.
+Answer: #include <stdio.h>
+int main() {
+int n, i;
+int arr[100];  // Assuming max size of array is 100
+int max;
+printf("Enter the number of elements: ");
+scanf("%d", &n);
+printf("Enter %d integers:\n", n);
+for (i = 0; i < n; i++) {
+scanf("%d", &arr[i]);
+}
+max = arr[0];  // Assume first element is max
+for (i = 1; i < n; i++) {
+if (arr[i] > max) {
+max = arr[i];
+}
+}
+printf("The largest element is: %d\n", max);
+return 0;
+}
+Type: programming
+--------------------------------------------------------------------------------
+
+Q3: Write a Java program to check if a number is even or odd.
+Answer: import java.util.Scanner;
+public class EvenOddChecker {
+// Method to check even or odd
+public static String checkEvenOdd(int number) {
+if (number % 2 == 0) {
+return number + " is even.";
+} else {
+return number + " is odd.";
+}
+}
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+System.out.print("Enter an integer: ");
+int input = scanner.nextInt();
+String result = checkEvenOdd(input);
+System.out.println(result);
+scanner.close();
+}
+}
+Type: programming
+--------------------------------------------------------------------------------
+

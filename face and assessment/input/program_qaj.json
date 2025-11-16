@@ -1,0 +1,17 @@
+[
+  {
+    "question": "Write a C program to check whether a given number is prime or not.",
+    "answer": "#include <stdio.h>\nint main() {\nint num, i, isPrime = 1;\nprintf(\"Enter a positive integer: \");\nscanf(\"%d\", &num);\nif (num <= 1) {\nisPrime = 0;\n} else {\nfor (i = 2; i <= num / 2; i++) {\nif (num % i == 0) {\nisPrime = 0;\nbreak;\n}\n}\n}",
+    "type": "programming"
+  },
+  {
+    "question": "Write a C program to find the largest element in an array.",
+    "answer": "#include <stdio.h>\nint main() {\nint n, i;\nint arr[100];  // Assuming max size of array is 100\nint max;\nprintf(\"Enter the number of elements: \");\nscanf(\"%d\", &n);\nprintf(\"Enter %d integers:\\n\", n);\nfor (i = 0; i < n; i++) {\nscanf(\"%d\", &arr[i]);\n}\nmax = arr[0];  // Assume first element is max\nfor (i = 1; i < n; i++) {\nif (arr[i] > max) {\nmax = arr[i];\n}\n}\nprintf(\"The largest element is: %d\\n\", max);\nreturn 0;\n}",
+    "type": "programming"
+  },
+  {
+    "question": "Write a Java program to check if a number is even or odd.",
+    "answer": "import java.util.Scanner;\npublic class EvenOddChecker {\n// Method to check even or odd\npublic static String checkEvenOdd(int number) {\nif (number % 2 == 0) {\nreturn number + \" is even.\";\n} else {\nreturn number + \" is odd.\";\n}\n}\npublic static void main(String[] args) {\nScanner scanner = new Scanner(System.in);\nSystem.out.print(\"Enter an integer: \");\nint input = scanner.nextInt();\nString result = checkEvenOdd(input);\nSystem.out.println(result);\nscanner.close();\n}\n}",
+    "type": "programming"
+  }
+]

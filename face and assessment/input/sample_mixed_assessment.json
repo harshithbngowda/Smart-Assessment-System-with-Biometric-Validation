@@ -1,0 +1,76 @@
+[
+  {
+    "question": "What does CPU stand for?",
+    "options": [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Program Utility",
+      "Central Processor Universal"
+    ],
+    "correct_answer": "A",
+    "type": "mcq"
+  },
+  {
+    "question": "Explain what an API (Application Programming Interface) is and why it is important in software development.",
+    "correct_answer": "An API is a set of protocols, tools, and definitions that allows different software applications to communicate with each other. It defines the methods and data formats applications can use to request and exchange information. APIs are important because they enable integration between systems, promote code reusability, simplify development, and allow developers to use third-party services without understanding their internal implementation.",
+    "type": "descriptive"
+  },
+  {
+    "question": "Which of the following is NOT a valid Python data type?",
+    "options": [
+      "List",
+      "Tuple",
+      "Array",
+      "Dictionary"
+    ],
+    "correct_answer": "C",
+    "type": "mcq"
+  },
+  {
+    "question": "Write a Python function to find the sum of all even numbers in a given list.",
+    "answer": "def sum_even_numbers(numbers):\n    total = 0\n    for num in numbers:\n        if num % 2 == 0:\n            total += num\n    return total\n\n# Alternative using list comprehension:\ndef sum_even_numbers_v2(numbers):\n    return sum(num for num in numbers if num % 2 == 0)\n\n# Example usage:\nmy_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nprint(sum_even_numbers(my_list))  # Output: 30",
+    "type": "programming"
+  },
+  {
+    "question": "What is the purpose of version control systems like Git? List at least three benefits.",
+    "correct_answer": "Version control systems track changes to files and coordinate work among multiple developers. Benefits include: 1) History tracking - maintains complete change history, 2) Collaboration - allows multiple developers to work simultaneously, 3) Branching and merging - enables parallel development, 4) Backup and recovery - provides restore points, 5) Code review - facilitates peer review process.",
+    "type": "descriptive"
+  },
+  {
+    "question": "In Object-Oriented Programming, what is inheritance?",
+    "options": [
+      "The ability to create new classes from existing classes",
+      "The process of hiding implementation details",
+      "The ability of objects to take many forms",
+      "Bundling data and methods together"
+    ],
+    "correct_answer": "A",
+    "type": "mcq"
+  },
+  {
+    "question": "Write a Python function to count the number of vowels in a given string.",
+    "answer": "def count_vowels(s):\n    vowels = 'aeiouAEIOU'\n    count = 0\n    for char in s:\n        if char in vowels:\n            count += 1\n    return count\n\n# Alternative using list comprehension:\ndef count_vowels_v2(s):\n    return sum(1 for char in s if char.lower() in 'aeiou')\n\n# Example usage:\ntext = 'Hello World'\nprint(count_vowels(text))  # Output: 3",
+    "type": "programming"
+  },
+  {
+    "question": "What is the difference between '==' and '===' operators in JavaScript?",
+    "options": [
+      "There is no difference",
+      "== checks value only, === checks value and type",
+      "== is for numbers, === is for strings",
+      "=== is faster than =="
+    ],
+    "correct_answer": "B",
+    "type": "mcq"
+  },
+  {
+    "question": "Describe the Model-View-Controller (MVC) architecture pattern and explain its advantages.",
+    "correct_answer": "MVC is a software design pattern that separates an application into three interconnected components: Model (data and business logic), View (user interface), and Controller (handles user input and updates model/view). Advantages: Separation of concerns, easier testing and maintenance, parallel development, code reusability, and flexibility to change one component without affecting others.",
+    "type": "descriptive"
+  },
+  {
+    "question": "Write a Python function to remove duplicate elements from a list while preserving the original order.",
+    "answer": "def remove_duplicates(lst):\n    seen = set()\n    result = []\n    for item in lst:\n        if item not in seen:\n            seen.add(item)\n            result.append(item)\n    return result\n\n# Alternative using dict.fromkeys():\ndef remove_duplicates_v2(lst):\n    return list(dict.fromkeys(lst))\n\n# Example usage:\nnumbers = [1, 2, 3, 2, 4, 1, 5, 3]\nprint(remove_duplicates(numbers))  # Output: [1, 2, 3, 4, 5]",
+    "type": "programming"
+  }
+]

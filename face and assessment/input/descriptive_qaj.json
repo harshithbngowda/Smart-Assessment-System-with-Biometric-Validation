@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What does the King do when he visits?",
+    "options": [
+      "Kneels by her side and calls out 'Mi reina!'",
+      "Reads poetry",
+      "Brings flowers",
+      "Prays silently"
+    ],
+    "correct_answer": "A",
+    "explanation": "The text describes: Once every month the King, wrapped in a dark cloak\nand with a muffled lantern in his hand, went in and knelt by her side calling out, ‘Mi reina!",
+    "type": "event_mcq"
+  },
+  {
+    "question": "Where is the Queen's body kept?",
+    "options": [
+      "In a golden tomb",
+      "In the castle tower",
+      "In the royal cemetery",
+      "In a black marble chapel of the Palace"
+    ],
+    "correct_answer": "D",
+    "explanation": "The text describes: She had been embalmed by a Moorish physician, who in return for this service had\nbeen granted his life, which for heresy and suspicion of magical practices had been already\nforfeited, men said, to the Holy Office, and her body was still lying on its tapestried bier in\nthe black marble chapel of the Palace, just as the monks had borne her in on that windy\nMarch day nearly twelve years before.",
+    "type": "detail_mcq"
+  },
+  {
+    "question": "What is the main theme of this passage?",
+    "options": [
+      "A story of love, loss, and mourning",
+      "A description of royal ceremonies",
+      "A historical account of wars",
+      "A tale of political intrigue"
+    ],
+    "correct_answer": "A",
+    "explanation": "The passage focuses on: Mi reina!’ and sometimes breaking through the formal etiquette that in Spain governs every\nseparate action of life, and sets limits even to the sorrow of a King, he would clutch at the\npale jewelled hands in a wild agony of grief, and try to wake by his mad kisses the cold\npainted face.",
+    "type": "comprehension_mcq"
+  }
+]

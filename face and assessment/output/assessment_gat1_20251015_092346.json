@@ -1,0 +1,49 @@
+{
+  "student_name": "nidhiaunty",
+  "student_id": "gat1",
+  "timestamp": "20251015_092346",
+  "total_questions": 3,
+  "answered_questions": 1,
+  "warnings_count": 4,
+  "answers": [
+    {
+      "serial_no": 1,
+      "question": "What does the King do when he visits?",
+      "type": "mcq",
+      "student_answer": "D",
+      "correct_answer": "A",
+      "options": [
+        "Kneels by her side and calls out 'Mi reina!'",
+        "Reads poetry",
+        "Brings flowers",
+        "Prays silently"
+      ]
+    },
+    {
+      "serial_no": 2,
+      "question": "Where is the Queen's body kept?",
+      "type": "mcq",
+      "student_answer": "",
+      "correct_answer": "D",
+      "options": [
+        "In a golden tomb",
+        "In the castle tower",
+        "In the royal cemetery",
+        "In a black marble chapel of the Palace"
+      ]
+    },
+    {
+      "serial_no": 3,
+      "question": "What is the main theme of this passage?",
+      "type": "mcq",
+      "student_answer": "",
+      "correct_answer": "A",
+      "options": [
+        "A story of love, loss, and mourning",
+        "A description of royal ceremonies",
+        "A historical account of wars",
+        "A tale of political intrigue"
+      ]
+    }
+  ]
+}

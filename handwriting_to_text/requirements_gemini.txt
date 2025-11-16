@@ -1,0 +1,6 @@
+# Minimal requirements for Gemini handwriting recognition
+google-generativeai>=0.8.0
+pillow>=10.0.0
+pdf2image>=1.16.3  # For PDF support (requires poppler)
+python-pptx>=0.6.21  # For PowerPoint support
+python-docx>=1.0.0  # For Word document support

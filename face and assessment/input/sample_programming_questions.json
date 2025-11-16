@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Write a Python function to check if a given number is prime or not. The function should return True if the number is prime, False otherwise.",
+    "answer": "def is_prime(n):\n    if n <= 1:\n        return False\n    if n == 2:\n        return True\n    if n % 2 == 0:\n        return False\n    for i in range(3, int(n**0.5) + 1, 2):\n        if n % i == 0:\n            return False\n    return True",
+    "type": "programming"
+  },
+  {
+    "question": "Write a Python function to find the factorial of a number using recursion.",
+    "answer": "def factorial(n):\n    if n == 0 or n == 1:\n        return 1\n    else:\n        return n * factorial(n - 1)\n\n# Alternative iterative solution:\ndef factorial_iterative(n):\n    result = 1\n    for i in range(1, n + 1):\n        result *= i\n    return result",
+    "type": "programming"
+  },
+  {
+    "question": "Write a Python function to reverse a string without using built-in reverse functions.",
+    "answer": "def reverse_string(s):\n    reversed_str = ''\n    for char in s:\n        reversed_str = char + reversed_str\n    return reversed_str\n\n# Alternative using slicing:\ndef reverse_string_slice(s):\n    return s[::-1]\n\n# Alternative using two pointers:\ndef reverse_string_pointers(s):\n    s_list = list(s)\n    left, right = 0, len(s_list) - 1\n    while left < right:\n        s_list[left], s_list[right] = s_list[right], s_list[left]\n        left += 1\n        right -= 1\n    return ''.join(s_list)",
+    "type": "programming"
+  },
+  {
+    "question": "Write a Python function to find the largest element in a list without using the max() function.",
+    "answer": "def find_largest(lst):\n    if not lst:\n        return None\n    largest = lst[0]\n    for num in lst[1:]:\n        if num > largest:\n            largest = num\n    return largest\n\n# Example usage:\nnumbers = [3, 7, 2, 9, 1, 5]\nprint(find_largest(numbers))  # Output: 9",
+    "type": "programming"
+  },
+  {
+    "question": "Write a Python function to check if a string is a palindrome (reads the same forwards and backwards). Ignore spaces and case sensitivity.",
+    "answer": "def is_palindrome(s):\n    # Remove spaces and convert to lowercase\n    s = s.replace(' ', '').lower()\n    # Check if string equals its reverse\n    return s == s[::-1]\n\n# Alternative two-pointer approach:\ndef is_palindrome_twopointer(s):\n    s = s.replace(' ', '').lower()\n    left, right = 0, len(s) - 1\n    while left < right:\n        if s[left] != s[right]:\n            return False\n        left += 1\n        right -= 1\n    return True\n\n# Example usage:\nprint(is_palindrome('A man a plan a canal Panama'))  # True\nprint(is_palindrome('Hello'))  # False",
+    "type": "programming"
+  }
+]

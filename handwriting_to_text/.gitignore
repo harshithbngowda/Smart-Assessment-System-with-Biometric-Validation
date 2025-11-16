@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models
+trained_model/
+custom_trained_model/
+my_model/
+my_custom_model/
+*.bin
+
+# Output files
+output.txt
+output.json
+*.json
+pdf_output.txt
+
+# PDF converted images
+pdf_images/
+
+# Cache
+.cache/
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# HuggingFace cache (optional - comment out if you want to track)
+.transformers_cache/
